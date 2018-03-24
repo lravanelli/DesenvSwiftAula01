@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var tfEmail: UITextField!
     @IBOutlet weak var tfPassword: UITextField!
     
+    
+    
     //é disparado quando clicado em qualquer area da view que não é clicavel (Ex. Botão)
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         view.endEditing(true)
@@ -23,6 +25,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         tfName.delegate = self
         tfEmail.delegate = self
+        
     }
     
     @IBAction func register(_ sender: Any) {

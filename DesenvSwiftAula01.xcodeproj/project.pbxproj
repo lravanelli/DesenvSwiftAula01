@@ -12,6 +12,7 @@
 		AC51C4B220667201004A1E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC51C4B020667201004A1E26 /* Main.storyboard */; };
 		AC51C4B420667201004A1E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC51C4B320667201004A1E26 /* Assets.xcassets */; };
 		AC51C4B720667201004A1E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC51C4B520667201004A1E26 /* LaunchScreen.storyboard */; };
+		AC51C4BF2066A2AB004A1E26 /* customImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51C4BE2066A2AB004A1E26 /* customImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AC51C4B320667201004A1E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC51C4B620667201004A1E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC51C4B820667201004A1E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC51C4BE2066A2AB004A1E26 /* customImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		AC51C4AB20667201004A1E26 /* DesenvSwiftAula01 */ = {
 			isa = PBXGroup;
 			children = (
+				AC51C4BE2066A2AB004A1E26 /* customImageView.swift */,
 				AC51C4AC20667201004A1E26 /* AppDelegate.swift */,
 				AC51C4AE20667201004A1E26 /* ViewController.swift */,
 				AC51C4B020667201004A1E26 /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC51C4BF2066A2AB004A1E26 /* customImageView.swift in Sources */,
 				AC51C4AF20667201004A1E26 /* ViewController.swift in Sources */,
 				AC51C4AD20667201004A1E26 /* AppDelegate.swift in Sources */,
 			);
